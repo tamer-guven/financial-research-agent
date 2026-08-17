@@ -1,0 +1,42 @@
+# Private local material
+.private/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Package-manager caches
+.uv-cache/
+
+# Runtime databases and artifacts
+*.db
+*.sqlite
+*.sqlite3
+data/artifacts/
+data/runs/
+data/runtime/
+
+# Logs
+*.log
+logs/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

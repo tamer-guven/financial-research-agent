@@ -1,0 +1,18 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 82,
+  "message": [],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SA0",
+        "data": [
+          {"year": "2024", "period": "M09", "periodName": "September", "value": "315.301", "footnotes": [{}]},
+          {"year": "2023", "period": "M09", "periodName": "September", "value": "307.789", "footnotes": [{}]},
+          {"year": "2022", "period": "M09", "periodName": "September", "value": "296.808", "footnotes": [{}]},
+          {"year": "2021", "period": "M09", "periodName": "September", "value": "274.310", "footnotes": [{}]}
+        ]
+      }
+    ]
+  }
+}

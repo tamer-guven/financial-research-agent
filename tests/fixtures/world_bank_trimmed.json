@@ -1,0 +1,9 @@
+[
+  {"page": 1, "pages": 1, "per_page": 100, "total": 4},
+  [
+    {"indicator": {"id": "NY.GDP.MKTP.KD.ZG", "value": "GDP growth (annual %)"}, "country": {"id": "1W", "value": "World"}, "countryiso3code": "WLD", "date": "2024", "value": 2.90001340156714, "unit": "", "obs_status": "", "decimal": 1},
+    {"indicator": {"id": "NY.GDP.MKTP.KD.ZG", "value": "GDP growth (annual %)"}, "country": {"id": "1W", "value": "World"}, "countryiso3code": "WLD", "date": "2023", "value": 2.85938493335973, "unit": "", "obs_status": "", "decimal": 1},
+    {"indicator": {"id": "NY.GDP.MKTP.KD.ZG", "value": "GDP growth (annual %)"}, "country": {"id": "1W", "value": "World"}, "countryiso3code": "WLD", "date": "2022", "value": 3.44001097265647, "unit": "", "obs_status": "", "decimal": 1},
+    {"indicator": {"id": "NY.GDP.MKTP.KD.ZG", "value": "GDP growth (annual %)"}, "country": {"id": "1W", "value": "World"}, "countryiso3code": "WLD", "date": "2021", "value": 6.48508887596752, "unit": "", "obs_status": "", "decimal": 1}
+  ]
+]

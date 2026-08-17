@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "resilient-financial-research-agent"
+version = "0.1.0"
+description = "A checkpointed corrective DAG agent for resilient financial research."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { file = "LICENSE" }
+authors = [{ name = "Tamer Guven" }]
+dependencies = [
+  "httpx>=0.28,<1",
+  "openai>=2,<3",
+  "pydantic>=2.11,<3",
+  "rich>=13.9,<15",
+  "typer>=0.16,<1",
+]
+
+[dependency-groups]
+dev = [
+  "detect-secrets>=1.5,<2",
+  "pytest>=8,<10",
+]
+
+[project.scripts]
+research-agent = "research_agent.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/research_agent"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+markers = [
+  "live_openai: opt-in test that makes live OpenAI API calls",
+]
